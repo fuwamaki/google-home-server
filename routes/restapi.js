@@ -29,7 +29,8 @@ router.get( '/:id', function ( req, res ) {
 
 // POST insert data
 router.post( '/', function ( req, res ) {
-  collection(COL).insertOne( req.body ).then(function(r) {
+  var parameter = req.body.result.parameters;
+  collection(COL).insertOne( parameter ).then(function(r) {
     res.send( r );
   });
 } );

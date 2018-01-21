@@ -3,12 +3,12 @@
  * http://mongodb.github.io/node-mongodb-native/2.1/
  */
 var db;
-var dbName = 'heroku_mt6xbwss';
+var dbName = 'test';
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 
 // Connection URL
-var url = 'mongodb://heroku_mt6xbwss:fsknmq418k0ru8hq33lblj13fm@ds211558.mlab.com:11558/heroku_mt6xbwss';
+var url = 'mongodb://localhost:27017';
 
 // Use connect method to connect to the Server
 MongoClient.connect(url, function(err, mongodb) {
