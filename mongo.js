@@ -8,7 +8,7 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 
 // Connection URL
-var url = 'mongodb://heroku_vvl0q8f3:ci81tgf4i40kkrvnhklglmf30q@ds261247.mlab.com:61247/heroku_vvl0q8f3';
+var url = 'mongodb://heroku_mt6xbwss:fsknmq418k0ru8hq33lblj13fm@ds211558.mlab.com:11558/heroku_mt6xbwss';
 
 // Use connect method to connect to the Server
 MongoClient.connect(url, function(err, mongodb) {
