@@ -3,7 +3,7 @@
  * http://mongodb.github.io/node-mongodb-native/2.1/
  */
 var db;
-var dbName = 'test';
+var dbName = 'heroku_mt6xbwss';
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 
