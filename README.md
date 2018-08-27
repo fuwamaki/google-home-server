@@ -1,6 +1,7 @@
 ## heroku-server
 
 Google Homeを買い物に役立てる用に作成したAPIサーバ。
+
 https://speakerdeck.com/fuwamaki/googlehomewomai-iwu-niyi-li-teru
 
 ### 開発環境
